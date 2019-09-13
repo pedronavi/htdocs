@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
 require './cursoCRUD.php';
 
 if(isset($_SERVER['HTTP_REFERER'])){
@@ -23,4 +22,4 @@ function atualizarCurso($id, $curso, $turno){
         echo "<br> <a href='listar_curso.php'> Voltar a lista </a>";
     }
 }
->>>>>>> 22766aecd3e3f7980a634739f8bfb1e922409a6c
+?>
