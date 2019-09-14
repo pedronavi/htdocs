@@ -2,7 +2,7 @@
     require './cursoCRUD.php';
     
     if(isset($_SERVER['HTTP_REFERER'])){
-    if($_SERVER['HTTP_REFERER'] == 'http://localhost/htdocsluis/nit_2019.01/aula04/listar_curso.php' &&  $_SERVER['REQUEST_METHOD'] === 'GET'){
+    if($_SERVER['HTTP_REFERER'] == 'http://localhost/nit2019/aula04/listar_curso.php' &&  $_SERVER['REQUEST_METHOD'] === 'GET'){
         $id = filter_input(INPUT_GET, 'id');
         excluirCurso($id);
         exit;

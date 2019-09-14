@@ -9,7 +9,7 @@
         $telefone = filter_input(INPUT_POST, "txtTelefone") ?? "";
 
         if(createAlunos($nome,$cpf,$telefone)) {
-            echo "Curso gravado com sucesso <br> <a href=listar_aluno.php> Clique aqui para retornar a lista. </a>";
+            echo "Aluno gravado com sucesso <br> <a href=listar_aluno.php> Clique aqui para retornar a lista. </a>";
         } else {
             echo "Falha ao gravar o curso <br> <a href=cadastrar_aluno.php> Clique aqui para retornar ao cadastramento. </a>";
         }
