@@ -9,8 +9,9 @@
    <meta name="author" content="">
 
   <title>Pizzaria DI NATALE</title>
-
+  
   <!-- Bootstrap core CSS -->
+  
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0f8c231b12.js"></script>
   <!-- Custom styles for this template -->

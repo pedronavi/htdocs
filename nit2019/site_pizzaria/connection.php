@@ -1,4 +1,5 @@
 <?php
+    session_start();
     # Definição das variáveis (de ambientes) de conexão.
 
     define("SERVER","localhost"); #127.0.0.1, IP do server etc etc... 

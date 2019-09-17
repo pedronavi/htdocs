@@ -2,15 +2,15 @@ use db_pizzaria;
    
 create table tb_login(
 	idlogin int primary key auto_increment,
-	email int not null,
-    senha int not null
+	email varchar(155) not null,
+    senha varchar(155) not null
 );
 
 create table tb_cadastro(
 	idcadastro int primary key auto_increment,
-    email int not null,
-    senha int not null,
-    endereco int not null,
-    cidade int not null,
-    cep int not null
+    email varchar(155) not null,
+    senha varchar(155) not null,
+    endereco varchar(155) not null,
+    cidade varchar(155) not null,
+    cep varchar(155) not null
     );

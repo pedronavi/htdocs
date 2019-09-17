@@ -1,5 +1,8 @@
  <!-- /.container -->
   <!-- MODAIS REGISTRAR.PHP-->
+  <?php
+    session_start();
+  ?>
   <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -10,7 +13,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <form action="registrar1.php" method="post">
+          <form action="registrar_cadastro.php" method="post">
   <div class="form-row">
   <div class="form-group col-md-6">
   <label for="inputEmail4">Email</label>
